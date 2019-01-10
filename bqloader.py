@@ -4,9 +4,9 @@ from apiclient import discovery
 import logging
 
 class BQLoader():
-    project_id = ''
-    dataset_id = 'test'
-    table_id = 'gadatapy4'
+    project_id = 'datastr-208307'
+    dataset_id = 'bqstreaming'
+    table_id = 'tab1'
 
     table_schema= [
         {
